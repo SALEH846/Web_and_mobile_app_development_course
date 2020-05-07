@@ -1,0 +1,158 @@
+.smed i {
+    color: white;
+    font-size: 20px;
+    padding: 12px;
+}
+
+#NAVBAR {
+    position: relative;
+}
+
+.mainStatContainer {
+    height: 250px;
+}
+
+.number {
+    font-size: 2rem;
+}
+
+@media (max-width: 768px){
+    .mainStatContainer {
+        height: 500px;
+    }
+}
+
+.whatWeAreDoingBoxes {
+    height: 200px;
+    width: 300px;
+    box-shadow: #211b1b 1px 1px 10px;
+}
+
+.whatWeAreDoingText{
+    font-size: 1.3rem;
+}
+
+.backToTop {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.whatWeAreDoingContent {
+    position: relative;
+    top: 20%;
+    left: 5%;
+    transform: translate(-20%, -5%);
+}
+
+.borderStyle {
+    border-bottom: 2px solid green;
+}
+
+.borderStyle1 {
+    border-bottom: 2px solid #d6d4d4;
+}
+
+.flexItem {
+    height: 70px;
+    width: 400px;
+}
+
+.flexRow {
+    display: flex;
+}
+
+@media (max-width: 768px){
+    .flexRow {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.image1,
+.image2,
+.image3,
+.image4,
+.image5 {
+    width: 200px;
+    height: 200px;
+    margin-right: 10px;
+    
+}
+
+.image1 {
+    background: url(images/hazrat.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.image2 {
+    background: url(images/rashan1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.image3 {
+    background: url(images/hazrat2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.image4 {
+    background: url(images/rashan2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.image5 {
+    background: url(images/food.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.imageFlex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+@media (max-width: 768px) {
+    .imageFlex {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .image1,
+    .image2,
+    .image3,
+    .image4,
+    .image5 {
+        width: 300px;
+        height: 250px;
+        margin-bottom: 15px;
+    }
+}
+
+.footerIcons {
+    font-size: 1.3em;
+}
+
+.footerContainer {
+    height: 300px;
+}
+
+.COLUMN {
+    position: relative;
+    top: 50%;
+    left: 0%;
+    transform: translate(0%, 20%);
+}
+
+@media (max-width: 768px) {
+    .footerContainer {
+        height: 500px;
+    }
+
+    .COLUMN {
+        margin-bottom: 50px;
+    }
+}
