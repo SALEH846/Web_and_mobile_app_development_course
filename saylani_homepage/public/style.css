@@ -32,12 +32,6 @@
     font-size: 1.3rem;
 }
 
-.backToTop {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-}
-
 .whatWeAreDoingContent {
     position: relative;
     top: 20%;
@@ -155,4 +149,10 @@
     .COLUMN {
         margin-bottom: 50px;
     }
+}
+
+.backToTop {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
 }
