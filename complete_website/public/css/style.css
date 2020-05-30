@@ -1,0 +1,48 @@
+.companyLogo {
+    height: 50px;
+    width: 100px;
+}
+
+.headings {
+    color: #ec9900;
+}
+
+.latestProducts {
+    display: flex;
+}
+
+#NAVBAR {
+    position: absolute !important;
+    top: 0px !important;
+    right: 0px !important;
+    left: 0px !important;
+    z-index: 1 !important;
+}
+
+#carouselExampleIndicators {
+    z-index: -1 !important;
+}
+
+.card-img-top {
+    height: 200px !important;
+    width: 250px !important;
+}
+
+@media only screen and (max-width: 768px) {
+    .latestProducts {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.form-text {
+    display: flex !important;
+    justify-content: flex-end !important;
+}
+
+@media only screen and (max-width: 576px) {
+    .form-text {
+        display: flex !important;
+        justify-content: flex-start !important;
+    }
+}
