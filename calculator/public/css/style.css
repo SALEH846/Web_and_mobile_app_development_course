@@ -1,0 +1,16 @@
+@media (max-width: 768px) {
+    .mainDiv {
+        width: 90% !important;
+        margin: 0 auto !important;
+    }
+}
+
+.calculatorButtons {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.inputField {
+    height: 40px;
+    width: 100%;
+}
