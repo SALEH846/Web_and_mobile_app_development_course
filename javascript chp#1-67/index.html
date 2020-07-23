@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Assignment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Chapters 43-48 -->
+    <!-- Task 1 -->
+    <a href="JavaScript: void(0)" onclick="greeting()">Greetings!</a>
+
+    <!-- Task 2 -->
+    <div class="images">
+        <a href="JavaScript: void(0)" onclick="phone()"  class="pic"><img src="images/mobile-1.jpg" class="pic"></a>
+        <a href="JavaScript: void(0)" onclick="phone()"  class="pic"><img src="images/mobile-2.jpg" class="pic"></a>
+        <a href="JavaScript: void(0)" onclick="phone()"  class="pic"><img src="images/mobile-3.jpg" class="pic"></a>
+    </div>
+
+    <!-- Task 3 -->
+    <div>
+        <table id="studentsRecord">
+            <tr>
+                <th>Index</th>
+                <th>Name</th>
+                <th>Class</th>
+            </tr>
+            <tr>
+                <td>0</td>
+                <td>Haseeb</td>
+                <td><button>Delete</button></td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Saleh</td>
+                <td><button>Delete</button></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Hamza</td>
+                <td><button>Delete</button></td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Nauman</td>
+                <td><button>Delete</button></td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- Task 4 -->
+    <div>
+        <img src="images/mobile-1.jpg" id="changing" class="picu" onmouseover="change()" onmouseout="backToOriginal()">
+    </div>
+
+    <!-- Task 5 -->
+    <h1 id="counter">0</h1>
+    <button onclick="add()">Add</button>
+    <button onclick="minus()">Minus</button>
+
+    <!-- Chapters 49-52 -->
+    <!-- Task 1 -->
+    <h1>Sign Up</h1>
+    <form>
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name"><br><br>
+        <label for="email">Email</label>
+        <input type="text" name="email" id="email"><br><br>
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password"><br><br>
+        <label for="city">City</label>
+        <input type="text" name="city" id="city"><br><br>
+        <label for="country">Country</label>
+        <input type="text" name="country" id="country"><br><br>
+    </form>
+    <a href="another.html" onclick="displayInformation()"><button>Submit</button></a>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

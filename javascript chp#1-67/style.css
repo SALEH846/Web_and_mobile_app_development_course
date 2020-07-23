@@ -1,0 +1,15 @@
+.images {
+    display: flex;
+    flex-direction: row;
+}
+
+.pic {
+    height: 200px;
+    width: 200px;
+    margin: 0 auto;
+}
+
+.picu {
+    height: 200px;
+    width: 200px;
+}
